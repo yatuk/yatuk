@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Fatih </h1>
 <h3 align="center">@İstanbul Technical University</h3>
-# 💫 About Me:
+# 💫 About Me:#
 <br><br>- 🎓 Studying Computer Engineering at Istanbul Technical University.<br>- 💡 Interested in Backend Development, Networking, and DevOps.<br>- 😺 A cats enthusiast.
 
 
