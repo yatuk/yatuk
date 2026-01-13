@@ -1,85 +1,40 @@
-<h1 align="center">Fatih Serdar Çakmak</h1>
+<h2 align="center">Fatih Serdar Çakmak</h2>
 <p align="center">
-Computer Engineering Student @ Istanbul Technical University  
-<br/>
+Computer Engineering Student @ Istanbul Technical University<br/>
 Cybersecurity & Systems Enthusiast
 </p>
 
 <p align="center">
-<a href="https://linkedin.com/in/fatihserdar">LinkedIn</a> •
+<a href="https://linkedin.com/in/fatihserdar">LinkedIn</a> ·
 <a href="mailto:fscakmak@proton.me">Email</a>
 </p>
 
 ---
 
-## 👋 About Me
-
-I am a **Computer Engineering student** at **Istanbul Technical University (ITU)** with a primary interest in  
-**cybersecurity, system fundamentals, and practical engineering concepts**.
-
-Rather than focusing on a single specialization, I aim to build a **strong technical foundation** across
-systems, networking, security, and software basics.
-
-Currently exploring:
-- Cybersecurity fundamentals & SOC concepts  
-- System-level thinking  
-- Automation and scripting for efficiency  
+### 👋 About
+Computer Engineering student focused on **cybersecurity fundamentals, system-level concepts, and practical engineering skills**.  
+Interested in understanding how systems work and how they fail.
 
 ---
 
-## 🛠 Technical Skills
-
-**Programming Languages**
-- C
-- C++
-- Python
-
-**Technologies & Tools**
-- Linux & Windows
-- Git & GitHub
-- MySQL
-- AWS (basic)
-
-**Core Concepts**
-- Operating Systems
-- Computer Networks
-- Cybersecurity fundamentals
-- Databases
+### 🛠 Tech
+- **Languages:** C, C++, Python  
+- **Tools:** Linux, Git, MySQL, AWS (basic)  
+- **Concepts:** Operating Systems, Computer Networks, Cybersecurity basics
 
 ---
 
-## 📌 Areas of Interest
-
-- Cybersecurity & Blue Team concepts  
-- System internals & low-level understanding  
-- Security monitoring and analysis  
-- Technical problem solving  
+### 🎯 Interests
+- SOC & Blue Team concepts  
+- System internals  
+- Security monitoring & analysis  
 
 ---
-
-## 📊 GitHub Activity
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=yatuk&theme=dark&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=yatuk&hide_border=true&theme=dark&show_icons=false" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yatuk&theme=dark&hide_border=true" />
-</p>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatuk&layout=compact&theme=dark&hide_border=true" />
-</p>
-
----
-
-## 📫 Contact
-
-- LinkedIn: https://linkedin.com/in/fatihserdar  
-- Email: fscakmak@proton.me  
-
----
-
-<p align="center">
-<sub>Building strong fundamentals, one step at a time.</sub>
+<sub>ytkgry</sub>
 </p>
