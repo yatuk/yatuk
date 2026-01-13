@@ -31,9 +31,6 @@ Interested in understanding how systems work and how they fail.
 
 ---
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=yatuk&hide_border=true&theme=dark&show_icons=false" />
-</p>
 
 <p align="center">
 <sub>ytkgry</sub>
