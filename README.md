@@ -5,7 +5,8 @@
 <!-- ============================ HEADER ============================ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:00B4D8,100:00F5A0&amp;height=200&amp;section=header&amp;text=Fatih%20Serdar%20%C3%87akmak&amp;fontColor=ffffff&amp;fontSize=52&amp;fontAlignY=36&amp;desc=SOC%20Analyst%20Intern%20%7C%20Blue%20Team%20%7C%20Detection%20%26%20Incident%20Response&amp;descAlignY=58&amp;descSize=16&amp;animation=fadeIn" alt="header"/>
+<h1>Fatih Serdar Çakmak</h1>
+<h3>SOC Analyst Intern · Blue Team · Detection &amp; Incident Response</h3>
 
 <a href="https://github.com/yatuk">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1000&amp;color=00F5A0&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=Triaging+alerts%2C+chasing+true+positives;Building+open-source+AI+security+tooling;SIEM+%2F+SOAR+%2F+EDR+%2F+MITRE+ATT%26CK;Computer+Engineering+%40+ITU+%C2%B7+Class+of+2027" alt="typing"/>
@@ -89,13 +90,11 @@ Terminal-themed personal site built with Astro 5. Boot animation, a SOC-dashboar
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=yatuk&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true&amp;title_color=00F5A0&amp;icon_color=00B4D8&amp;text_color=c9d1d9&amp;bg_color=0D1117" alt="stats"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=yatuk&amp;hide_border=true&amp;background=0D1117&amp;stroke=00B4D8&amp;ring=00F5A0&amp;fire=00F5A0&amp;currStreakLabel=00F5A0&amp;sideLabels=c9d1d9&amp;dates=8b949e&amp;currStreakNum=ffffff&amp;sideNums=ffffff" alt="streak"/>
+<img height="165" src="https://streak-stats.demolab.com/?user=yatuk&amp;hide_border=true&amp;background=0D1117&amp;stroke=00B4D8&amp;ring=00F5A0&amp;fire=00F5A0&amp;currStreakLabel=00F5A0&amp;sideLabels=c9d1d9&amp;dates=8b949e&amp;currStreakNum=ffffff&amp;sideNums=ffffff" alt="streak"/>
 
 <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatuk&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;title_color=00F5A0&amp;text_color=c9d1d9&amp;bg_color=0D1117" alt="top langs"/>
 
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=yatuk&amp;bg_color=0D1117&amp;color=00F5A0&amp;line=00B4D8&amp;point=ffffff&amp;area=true&amp;hide_border=true" alt="activity graph"/>
-
-<img width="95%" src="https://github-profile-trophy.vercel.app/?username=yatuk&amp;theme=gitdimmed&amp;no-frame=true&amp;no-bg=true&amp;margin-w=4&amp;column=7" alt="trophies"/>
 
 <br/>
 
@@ -106,7 +105,7 @@ Terminal-themed personal site built with Astro 5. Boot animation, a SOC-dashboar
 <!-- ============================ FOOTER ============================ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:00F5A0,50:00B4D8,100:0D1117&amp;height=120&amp;section=footer" alt="footer"/>
+<br/>
 
 <sub>⚡ <i>"Security is a process, not a product."</i> · Bruce Schneier</sub>
 
