@@ -79,6 +79,11 @@ A proxy you host yourself that sits between your app and the LLM provider (OpenA
 
 Catches tool poisoning, prompt injection, and supply-chain "rug pulls" in Model Context Protocol servers *before* your agent runs them. 6 detection rules (zero-width Unicode, injection patterns, encoded blobs, hidden HTML/Markdown, permission scope mismatch, dangerous tool names), **SARIF** output that drops straight into the GitHub Security tab, and SQLite snapshot diffing to flag silent schema changes. One-shot run with `uvx mcpradar scan ...`, no install needed. Public leaderboard at [yatuk.github.io/mcpradar](https://yatuk.github.io/mcpradar).
 
+### 🗄️ [WDI Analytics](https://github.com/yatuk/Database-Management-System) · Full-Stack Data Platform
+<p><img src="https://img.shields.io/badge/Flask-000000?style=flat-square&amp;logo=flask&amp;logoColor=white" alt="Flask"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker"/></p>
+
+A platform for exploring World Bank development indicators across six domains (countries, health, emissions, energy, freshwater, sustainability). A Flask blueprint API sits behind a React and TypeScript SPA, with role-based access control (admin / editor / viewer), parameterized SQL to block injection, and audit logging on every change. Interactive Chart.js trends, a Leaflet world map, CSV export, and server-side pagination on top. Packaged with Docker Compose, Alembic migrations, pytest, rate limiting, CSRF protection, and a CI pipeline. Built as an ITU term project for BLG-317E.
+
 ### 🖥️ [Portfolio](https://github.com/yatuk/fscakmak-portfolio) · [fscakmak.com](https://fscakmak.com)
 <p><img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&amp;logo=astro&amp;logoColor=white" alt="Astro"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/></p>
 
