@@ -14,7 +14,6 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=yatuk&amp;label=Profile%20Views&amp;color=00F5A0&amp;style=flat-square" alt="profile views"/>
 <a href="https://linkedin.com/in/fatihserdar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="linkedin"/></a>
 <a href="https://fscakmak.com"><img src="https://img.shields.io/badge/Portfolio-fscakmak.com-00F5A0?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="portfolio"/></a>
 <img src="https://img.shields.io/badge/Based%20in-T%C3%BCrkiye-E30A17?style=flat-square&amp;logo=googlemaps&amp;logoColor=white" alt="location"/>
@@ -29,7 +28,7 @@ name:         Fatih Serdar Çakmak
 role:         SOC Analyst Intern  ·  Computer Engineering Student
 focus:        [ SOC Operations, Alert Triage, Incident Response, Detection ]
 currently:    SOC Intern @ Fibabanka (BDDK-regulated banking SOC)
-building:     [ Tamga - LLM security proxy, MCPRadar - MCP scanner ]
+building:     [ Tamga - LLM security proxy, MCPRadar - MCP scanner, SOC n8n playbooks ]
 education:    B.Sc. Computer Engineering @ ITU (expected 2027)
 learning:     Detection-as-Code · AI/LLM Security · Threat Hunting
 philosophy:   "Most alerts are noise. The interesting part is the few that aren't."
@@ -38,7 +37,7 @@ ask_me_about: [ SIEM, MITRE ATTACK, SOAR, Blue Team, LLM Security, Go, Python ]
 
 I'm a Computer Engineering student who spends most of his time inside a SOC. Day to day that means triaging alerts, killing false positives, and tweaking SOAR playbooks so the signal surfaces faster. Mostly I'm learning what incidents actually look like before they reach an analyst, and how much of a working SOC quietly runs on automation.
 
-Off the clock I build security tooling for AI systems. Right now that's a self-hosted proxy that guards LLM traffic and a scanner that checks MCP servers for nasty surprises. Both are open source, both are below.
+Off the clock I build security tooling for AI systems: a proxy that sits in front of LLM traffic, a scanner for MCP servers, and n8n playbooks that handle the repetitive half of SOC work. Everything is open source and linked below.
 
 <!-- ============================ EXPERIENCE ============================ -->
 ## `~/experience`
@@ -55,7 +54,7 @@ Off the clock I build security tooling for AI systems. Right now that's a self-h
 ## `~/tech-stack`
 
 #### 🛡️ Security · SOC · Detection
-<p><img src="https://img.shields.io/badge/SIEM-000000?style=for-the-badge&amp;logo=splunk&amp;logoColor=white" alt="SIEM"/> <img src="https://img.shields.io/badge/Cortex_XSOAR-FA582D?style=for-the-badge&amp;logo=paloaltonetworks&amp;logoColor=white" alt="Cortex XSOAR"/> <img src="https://img.shields.io/badge/EDR%20%2F%20NDR-1A2B4A?style=for-the-badge&amp;logo=fsecure&amp;logoColor=white" alt="EDR / NDR"/> <img src="https://img.shields.io/badge/MITRE_ATT%26CK-C00?style=for-the-badge&amp;logo=mitre&amp;logoColor=white" alt="MITRE ATT&amp;CK"/> <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&amp;logo=wireshark&amp;logoColor=white" alt="Wireshark"/></p>
+<p><img src="https://img.shields.io/badge/SIEM-000000?style=for-the-badge&amp;logo=splunk&amp;logoColor=white" alt="SIEM"/> <img src="https://img.shields.io/badge/Cortex_XSOAR-FA582D?style=for-the-badge&amp;logo=paloaltonetworks&amp;logoColor=white" alt="Cortex XSOAR"/> <img src="https://img.shields.io/badge/EDR%20%2F%20NDR-1A2B4A?style=for-the-badge&amp;logo=fsecure&amp;logoColor=white" alt="EDR / NDR"/> <img src="https://img.shields.io/badge/MITRE_ATT%26CK-C00?style=for-the-badge&amp;logo=mitre&amp;logoColor=white" alt="MITRE ATT&amp;CK"/> <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&amp;logo=wireshark&amp;logoColor=white" alt="Wireshark"/> <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&amp;logo=n8n&amp;logoColor=white" alt="n8n"/></p>
 
 #### 💻 Languages
 <p><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&amp;logo=go&amp;logoColor=white" alt="Go"/> <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&amp;logo=c&amp;logoColor=black" alt="C"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=white" alt="C++"/> <img src="https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="SQL"/></p>
@@ -72,17 +71,27 @@ Off the clock I build security tooling for AI systems. Right now that's a self-h
 ### 🛡️ [Tamga](https://github.com/yatuk/tamga) · Self-Hosted LLM Security Proxy
 <p><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&amp;logo=go&amp;logoColor=white" alt="Go"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/license-AGPL--3.0-green?style=flat-square" alt="AGPL-3.0"/> <img src="https://img.shields.io/github/stars/yatuk/tamga?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
 
-A proxy you host yourself that sits between your app and the LLM provider (OpenAI, Anthropic, Azure, Vertex). It redacts PII inline (TC Kimlik, IBAN, credit card), blocks leaked secrets, and catches prompt injection, with **sub-millisecond** static scanning via an Aho-Corasick DFA. Comes with KVKK / BDDK / GDPR / PCI-DSS compliance mappings, hash-chained audit logs, and a Next.js incident dashboard. The stack is a Go proxy, a Python (FastAPI) analyzer, and the dashboard, with a 309-prompt adversarial suite gated in CI.
+A proxy you host yourself, sitting between your app and the LLM provider (OpenAI, Anthropic, Azure, Vertex). It redacts PII like TC Kimlik and IBAN numbers before they leave your network, blocks leaked secrets, and flags prompt injection. The static scanner is an Aho-Corasick DFA, so scanning a request costs well under a millisecond. There are compliance mappings for KVKK, BDDK, GDPR and PCI-DSS, plus hash-chained audit logs and a Next.js incident dashboard. Go proxy, Python (FastAPI) analyzer. CI runs a 309-prompt adversarial suite on every change.
 
 ### 📡 [MCPRadar](https://github.com/yatuk/mcpradar) · Security Scanner for MCP Servers
 <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/PyPI-mcpradar-3775A9?style=flat-square&amp;logo=pypi&amp;logoColor=white" alt="PyPI"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/mcpradar?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
 
-Catches tool poisoning, prompt injection, and supply-chain "rug pulls" in Model Context Protocol servers *before* your agent runs them. 6 detection rules (zero-width Unicode, injection patterns, encoded blobs, hidden HTML/Markdown, permission scope mismatch, dangerous tool names), **SARIF** output that drops straight into the GitHub Security tab, and SQLite snapshot diffing to flag silent schema changes. One-shot run with `uvx mcpradar scan ...`, no install needed. Public leaderboard at [yatuk.github.io/mcpradar](https://yatuk.github.io/mcpradar).
+Checks Model Context Protocol servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. Six detection rules cover zero-width Unicode, injection patterns, encoded blobs, hidden HTML/Markdown, permission scope mismatches, and dangerous tool names. Output is SARIF, so findings land in the GitHub Security tab, and SQLite snapshot diffing catches servers that quietly change their schema after you approved them. Runs with `uvx mcpradar scan ...`, no install needed. Public leaderboard at [yatuk.github.io/mcpradar](https://yatuk.github.io/mcpradar).
+
+### ⚙️ [SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows) · SOC Automation Playbooks for n8n
+<p><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&amp;logo=n8n&amp;logoColor=white" alt="n8n"/> <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&amp;logo=json&amp;logoColor=white" alt="JSON"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/soc-n8n-workflows?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
+
+Ten SOC automation playbooks for n8n: LLM-assisted alert triage, phishing analysis, IOC enrichment, human-approved containment, CVE watch, and reporting. Each workflow is import-ready JSON with no secrets baked in; you wire up credentials on your own instance. The patterns come from things I actually deal with on shift.
+
+### 🎯 [SOC Simulation](https://github.com/yatuk/soc-simulation) · SIEM / SOAR / EDR Alert Triage Simulation
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/MITRE_ATT%26CK-C00?style=flat-square&amp;logo=mitre&amp;logoColor=white" alt="MITRE ATT&amp;CK"/> <img src="https://img.shields.io/github/stars/yatuk/soc-simulation?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
+
+A simulated shift as a SOC analyst: 127 alerts, 126 false positives, 1 real threat, 6 coffees. It walks through SIEM/SOAR/EDR triage with MITRE ATT&amp;CK mapping. Finding the one real threat is the easy part. Staying sharp through the 126 alerts before it is not. Live at [yatuk.github.io/soc-simulation](https://yatuk.github.io/soc-simulation/).
 
 ### 🗄️ [WDI Analytics](https://github.com/yatuk/Database-Management-System) · Full-Stack Data Platform
 <p><img src="https://img.shields.io/badge/Flask-000000?style=flat-square&amp;logo=flask&amp;logoColor=white" alt="Flask"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker"/></p>
 
-A platform for exploring World Bank development indicators across six domains (countries, health, emissions, energy, freshwater, sustainability). A Flask blueprint API sits behind a React and TypeScript SPA, with role-based access control (admin / editor / viewer), parameterized SQL to block injection, and audit logging on every change. Interactive Chart.js trends, a Leaflet world map, CSV export, and server-side pagination on top. Packaged with Docker Compose, Alembic migrations, pytest, rate limiting, CSRF protection, and a CI pipeline. Built as an ITU term project for BLG-317E.
+A platform for exploring World Bank development indicators across six domains (countries, health, emissions, energy, freshwater, sustainability). A Flask blueprint API sits behind a React + TypeScript SPA. Access is role-based (admin / editor / viewer), all SQL is parameterized, and every change is audit-logged. The frontend has Chart.js trends, a Leaflet world map, CSV export, and server-side pagination. Ships with Docker Compose, Alembic migrations, pytest, and CI. Term project for BLG-317E at ITU.
 
 ### 🖥️ [Portfolio](https://github.com/yatuk/fscakmak-portfolio) · [fscakmak.com](https://fscakmak.com)
 <p><img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&amp;logo=astro&amp;logoColor=white" alt="Astro"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/></p>
@@ -95,15 +104,14 @@ Terminal-themed personal site built with Astro 5. Boot animation, a SOC-dashboar
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=yatuk&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true&amp;title_color=00F5A0&amp;icon_color=00B4D8&amp;text_color=c9d1d9&amp;bg_color=0D1117" alt="stats"/>
-<img height="165" src="https://streak-stats.demolab.com/?user=yatuk&amp;hide_border=true&amp;background=0D1117&amp;stroke=00B4D8&amp;ring=00F5A0&amp;fire=00F5A0&amp;currStreakLabel=00F5A0&amp;sideLabels=c9d1d9&amp;dates=8b949e&amp;currStreakNum=ffffff&amp;sideNums=ffffff" alt="streak"/>
-
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatuk&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;title_color=00F5A0&amp;text_color=c9d1d9&amp;bg_color=0D1117" alt="top langs"/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=yatuk&amp;bg_color=0D1117&amp;color=00F5A0&amp;line=00B4D8&amp;point=ffffff&amp;area=true&amp;hide_border=true" alt="activity graph"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatuk&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;title_color=00F5A0&amp;text_color=c9d1d9&amp;bg_color=0D1117" alt="top langs"/>
 
 <br/>
 
-<img width="95%" src="https://raw.githubusercontent.com/yatuk/yatuk/output/snake.svg" alt="contribution snake"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yatuk/yatuk/output/snake-dark.svg"/>
+  <img width="95%" src="https://raw.githubusercontent.com/yatuk/yatuk/output/snake.svg" alt="contribution snake"/>
+</picture>
 
 </div>
 
