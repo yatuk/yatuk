@@ -103,8 +103,8 @@ Terminal-themed personal site built with Astro 5. Boot animation, a SOC-dashboar
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=yatuk&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true&amp;title_color=00F5A0&amp;icon_color=00B4D8&amp;text_color=c9d1d9&amp;bg_color=0D1117" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatuk&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;title_color=00F5A0&amp;text_color=c9d1d9&amp;bg_color=0D1117" alt="top langs"/>
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yatuk&amp;theme=github_dark" alt="stats"/>
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatuk&amp;theme=github_dark" alt="top langs"/>
 
 <br/>
 
