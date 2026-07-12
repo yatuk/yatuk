@@ -28,7 +28,7 @@ name:         Fatih Serdar Çakmak
 role:         SOC Analyst Intern  ·  Computer Engineering Student
 focus:        [ SOC Operations, Alert Triage, Incident Response, Detection ]
 currently:    SOC Intern @ Fibabanka (BDDK-regulated banking SOC)
-building:     [ Tamga - LLM security proxy, MCPRadar - MCP scanner, SOC n8n playbooks ]
+building:     [ Tamga - LLM security proxy, SOC n8n playbooks, MCPRadar - MCP scanner ]
 education:    B.Sc. Computer Engineering @ ITU (expected 2027)
 learning:     Detection-as-Code · AI/LLM Security · Threat Hunting
 philosophy:   "Most alerts are noise. The interesting part is the few that aren't."
@@ -71,12 +71,7 @@ Off the clock I build security tooling for AI systems: a proxy that sits in fron
 ### 🛡️ [Tamga](https://github.com/yatuk/tamga) · Self-Hosted LLM Security Proxy
 <p><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&amp;logo=go&amp;logoColor=white" alt="Go"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/license-AGPL--3.0-green?style=flat-square" alt="AGPL-3.0"/> <img src="https://img.shields.io/github/stars/yatuk/tamga?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
 
-A proxy you host yourself, sitting between your app and the LLM provider (OpenAI, Anthropic, Azure, Vertex). It redacts PII like TC Kimlik and IBAN numbers before they leave your network, blocks leaked secrets, and flags prompt injection. The static scanner is an Aho-Corasick DFA, so scanning a request costs well under a millisecond. There are compliance mappings for KVKK, BDDK, GDPR and PCI-DSS, plus hash-chained audit logs and a Next.js incident dashboard. Go proxy, Python (FastAPI) analyzer. CI runs a 309-prompt adversarial suite on every change.
-
-### 📡 [MCPRadar](https://github.com/yatuk/mcpradar) · Security Scanner for MCP Servers
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/PyPI-mcpradar-3775A9?style=flat-square&amp;logo=pypi&amp;logoColor=white" alt="PyPI"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/mcpradar?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
-
-Checks Model Context Protocol servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. Six detection rules cover zero-width Unicode, injection patterns, encoded blobs, hidden HTML/Markdown, permission scope mismatches, and dangerous tool names. Output is SARIF, so findings land in the GitHub Security tab, and SQLite snapshot diffing catches servers that quietly change their schema after you approved them. Runs with `uvx mcpradar scan ...`, no install needed. Public leaderboard at [yatuk.github.io/mcpradar](https://yatuk.github.io/mcpradar).
+A proxy you host yourself, between your app and the LLM provider (OpenAI, Anthropic, Azure, Vertex). PII like TC Kimlik and IBAN numbers gets redacted before it ever leaves your network; leaked secrets and prompt injection get blocked outright. The static scanner is an Aho-Corasick DFA, so a request costs well under a millisecond to scan. Compliance mappings for KVKK, BDDK, GDPR and PCI-DSS, hash-chained audit logs, a Next.js incident dashboard. Go proxy, Python (FastAPI) analyzer. CI runs a 309-prompt adversarial suite on every change.
 
 ### ⚙️ [SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows) · SOC Automation Playbooks for n8n
 <p><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&amp;logo=n8n&amp;logoColor=white" alt="n8n"/> <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&amp;logo=json&amp;logoColor=white" alt="JSON"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/soc-n8n-workflows?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
@@ -88,15 +83,10 @@ Ten SOC automation playbooks for n8n: LLM-assisted alert triage, phishing analys
 
 A simulated shift as a SOC analyst: 127 alerts, 126 false positives, 1 real threat, 6 coffees. It walks through SIEM/SOAR/EDR triage with MITRE ATT&amp;CK mapping. Finding the one real threat is the easy part. Staying sharp through the 126 alerts before it is not. Live at [yatuk.github.io/soc-simulation](https://yatuk.github.io/soc-simulation/).
 
-### 🗄️ [WDI Analytics](https://github.com/yatuk/Database-Management-System) · Full-Stack Data Platform
-<p><img src="https://img.shields.io/badge/Flask-000000?style=flat-square&amp;logo=flask&amp;logoColor=white" alt="Flask"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker"/></p>
+### 📡 [MCPRadar](https://github.com/yatuk/mcpradar) · Security Scanner for MCP Servers
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/PyPI-mcpradar-3775A9?style=flat-square&amp;logo=pypi&amp;logoColor=white" alt="PyPI"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/mcpradar?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
 
-A platform for exploring World Bank development indicators across six domains (countries, health, emissions, energy, freshwater, sustainability). A Flask blueprint API sits behind a React + TypeScript SPA. Access is role-based (admin / editor / viewer), all SQL is parameterized, and every change is audit-logged. The frontend has Chart.js trends, a Leaflet world map, CSV export, and server-side pagination. Ships with Docker Compose, Alembic migrations, pytest, and CI. Term project for BLG-317E at ITU.
-
-### 🖥️ [Portfolio](https://github.com/yatuk/fscakmak-portfolio) · [fscakmak.com](https://fscakmak.com)
-<p><img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&amp;logo=astro&amp;logoColor=white" alt="Astro"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/></p>
-
-Terminal-themed personal site built with Astro 5. Boot animation, a SOC-dashboard recruiter view, and bilingual content.
+Checks Model Context Protocol servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. Six detection rules cover zero-width Unicode, injection patterns, encoded blobs, hidden HTML/Markdown, permission scope mismatches, and dangerous tool names. Output is SARIF, so findings land in the GitHub Security tab, and SQLite snapshot diffing catches servers that quietly change their schema after you approved them. Runs with `uvx mcpradar scan ...`, no install needed. Public leaderboard at [yatuk.github.io/mcpradar](https://yatuk.github.io/mcpradar).
 
 <!-- ============================ STATS ============================ -->
 ## `~/github-stats`
