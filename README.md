@@ -78,6 +78,11 @@ A proxy you host yourself, between your app and the LLM provider (OpenAI, Anthro
 
 Ten SOC automation playbooks for n8n: LLM-assisted alert triage, phishing analysis, IOC enrichment, human-approved containment, CVE watch, and reporting. Each workflow is import-ready JSON with no secrets baked in; you wire up credentials on your own instance. The patterns come from things I actually deal with on shift.
 
+### 🎓 [İTÜ MCP](https://github.com/yatuk/itu-mcp) · MCP Server for İTÜ Ninova + OBS
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/PyPI-itu--mcp-3775A9?style=flat-square&amp;logo=pypi&amp;logoColor=white" alt="PyPI"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/itu-mcp?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
+
+An MCP server that plugs İTÜ's Ninova LMS and OBS student portal into Claude, Cursor, or any MCP client. Ask "what's due this week" in Turkish or English and get a real answer: course files, announcements, assignment deadlines, grades, attendance, schedules, transcript downloads. Credentials stay on your machine and only ever go to İTÜ servers, and assignment uploads always require explicit confirmation. Built on FastMCP; install with `pipx install itu-mcp`.
+
 ### 🎯 [SOC Simulation](https://github.com/yatuk/soc-simulation) · SIEM / SOAR / EDR Alert Triage Simulation
 <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/MITRE_ATT%26CK-C00?style=flat-square&amp;logo=mitre&amp;logoColor=white" alt="MITRE ATT&amp;CK"/> <img src="https://img.shields.io/github/stars/yatuk/soc-simulation?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
 
