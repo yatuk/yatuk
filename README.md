@@ -68,30 +68,14 @@ Off the clock I build security tooling for AI systems: a proxy that sits in fron
 <!-- ============================ PROJECTS ============================ -->
 ## `~/projects`
 
-### 🛡️ [Tamga](https://github.com/yatuk/tamga) · Self-Hosted LLM Security Proxy
-<p><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&amp;logo=go&amp;logoColor=white" alt="Go"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/license-AGPL--3.0-green?style=flat-square" alt="AGPL-3.0"/> <img src="https://img.shields.io/github/stars/yatuk/tamga?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
-
-A proxy you host yourself, between your app and the LLM provider (OpenAI, Anthropic, Azure, Vertex). PII like TC Kimlik and IBAN numbers gets redacted before it ever leaves your network; leaked secrets and prompt injection get blocked outright. The static scanner is an Aho-Corasick DFA, so a request costs well under a millisecond to scan. Compliance mappings for KVKK, BDDK, GDPR and PCI-DSS, hash-chained audit logs, a Next.js incident dashboard. Go proxy, Python (FastAPI) analyzer. CI runs a 309-prompt adversarial suite on every change.
-
-### ⚙️ [SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows) · SOC Automation Playbooks for n8n
-<p><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&amp;logo=n8n&amp;logoColor=white" alt="n8n"/> <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&amp;logo=json&amp;logoColor=white" alt="JSON"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/soc-n8n-workflows?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
-
-Ten SOC automation playbooks for n8n: LLM-assisted alert triage, phishing analysis, IOC enrichment, human-approved containment, CVE watch, and reporting. Each workflow is import-ready JSON with no secrets baked in; you wire up credentials on your own instance. The patterns come from things I actually deal with on shift.
-
-### 🎓 [İTÜ MCP](https://github.com/yatuk/itu-mcp) · MCP Server for İTÜ Ninova + OBS
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/PyPI-itu--mcp-3775A9?style=flat-square&amp;logo=pypi&amp;logoColor=white" alt="PyPI"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/itu-mcp?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
-
-An MCP server that plugs İTÜ's Ninova LMS and OBS student portal into Claude, Cursor, or any MCP client. Ask "what's due this week" in Turkish or English and get a real answer: course files, announcements, assignment deadlines, grades, attendance, schedules, transcript downloads. Credentials stay on your machine and only ever go to İTÜ servers, and assignment uploads always require explicit confirmation. Built on FastMCP; install with `pipx install itu-mcp`.
-
-### 🎯 [SOC Simulation](https://github.com/yatuk/soc-simulation) · SIEM / SOAR / EDR Alert Triage Simulation
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/MITRE_ATT%26CK-C00?style=flat-square&amp;logo=mitre&amp;logoColor=white" alt="MITRE ATT&amp;CK"/> <img src="https://img.shields.io/github/stars/yatuk/soc-simulation?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
-
-A simulated shift as a SOC analyst: 127 alerts, 126 false positives, 1 real threat, 6 coffees. It walks through SIEM/SOAR/EDR triage with MITRE ATT&amp;CK mapping. Finding the one real threat is the easy part. Staying sharp through the 126 alerts before it is not. Live at [yatuk.github.io/soc-simulation](https://yatuk.github.io/soc-simulation/).
-
-### 📡 [MCPRadar](https://github.com/yatuk/mcpradar) · Security Scanner for MCP Servers
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/PyPI-mcpradar-3775A9?style=flat-square&amp;logo=pypi&amp;logoColor=white" alt="PyPI"/> <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT"/> <img src="https://img.shields.io/github/stars/yatuk/mcpradar?style=flat-square&amp;color=00F5A0" alt="stars"/></p>
-
-Checks Model Context Protocol servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. Six detection rules cover zero-width Unicode, injection patterns, encoded blobs, hidden HTML/Markdown, permission scope mismatches, and dangerous tool names. Output is SARIF, so findings land in the GitHub Security tab, and SQLite snapshot diffing catches servers that quietly change their schema after you approved them. Runs with `uvx mcpradar scan ...`, no install needed. Public leaderboard at [yatuk.github.io/mcpradar](https://yatuk.github.io/mcpradar).
+| Project | What it does | Stack |
+|---|---|---|
+| 🛡️ **[Tamga](https://github.com/yatuk/tamga)** ⭐26 | Self-hosted proxy that redacts PII, blocks leaked secrets, and catches prompt injection before it hits your LLM provider. Sub-millisecond scanning, KVKK/BDDK/GDPR/PCI-DSS mappings. | `Go` `Python` `Next.js` |
+| ⚙️ **[SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows)** ⭐8 | Ten import-ready n8n playbooks for alert triage, phishing analysis, IOC enrichment, and CVE watch. No secrets baked in. | `n8n` `JSON` |
+| 🎓 **[İTÜ MCP](https://github.com/yatuk/itu-mcp)** ⭐6 | MCP server that connects İTÜ's Ninova and OBS to Claude, Cursor, and other AI clients. Course files, grades, deadlines, transcript, all queryable in plain language. | `Python` `FastMCP` |
+| 🗂️ **[İTÜ Archive](https://github.com/yatuk/itu-archive)** ⭐1 | OBS only keeps the current term online, so this pulls the course schedule and academic calendar daily and keeps it. 27 terms, 64k+ section records since 2016. | `Go` `JSON/CSV` |
+| 🎯 **[SOC Simulation](https://github.com/yatuk/soc-simulation)** ⭐3 | A simulated SOC shift: 127 alerts, 126 false positives, 1 real threat, 6 coffees. SIEM/SOAR/EDR triage with MITRE ATT&amp;CK mapping. [Live demo](https://yatuk.github.io/soc-simulation/). | `Python` |
+| 📡 **[MCPRadar](https://github.com/yatuk/mcpradar)** ⭐1 | Scans MCP servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. SARIF output, [public leaderboard](https://yatuk.github.io/mcpradar). | `Python` |
 
 <!-- ============================ STATS ============================ -->
 ## `~/github-stats`
