@@ -70,12 +70,12 @@ Off the clock I build security tooling for AI systems: a proxy that sits in fron
 
 | Project | What it does | Stack |
 |---|---|---|
-| 🛡️ **[Tamga](https://github.com/yatuk/tamga)** ⭐26 | Self-hosted proxy that redacts PII, blocks leaked secrets, and catches prompt injection before it hits your LLM provider. Sub-millisecond scanning, KVKK/BDDK/GDPR/PCI-DSS mappings. | `Go` `Python` `Next.js` |
+| 🛡️ **[Tamga](https://github.com/yatuk/tamga)** ⭐33 | Self-hosted proxy that redacts PII, blocks leaked secrets, and catches prompt injection before it hits your LLM provider. Sub-millisecond scanning, KVKK/BDDK/GDPR/PCI-DSS mappings. | `Go` `Python` `Next.js` |
 | ⚙️ **[SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows)** ⭐8 | Ten import-ready n8n playbooks for alert triage, phishing analysis, IOC enrichment, and CVE watch. No secrets baked in. | `n8n` `JSON` |
 | 🎓 **[İTÜ MCP](https://github.com/yatuk/itu-mcp)** ⭐6 | MCP server that connects İTÜ's Ninova and OBS to Claude, Cursor, and other AI clients. Course files, grades, deadlines, transcript, all queryable in plain language. | `Python` `FastMCP` |
 | 🗂️ **[İTÜ Archive](https://github.com/yatuk/itu-archive)** ⭐1 | OBS only keeps the current term online, so this pulls the course schedule and academic calendar daily and keeps it. 27 terms, 64k+ section records since 2016. | `Go` `JSON/CSV` |
 | 🎯 **[SOC Simulation](https://github.com/yatuk/soc-simulation)** ⭐3 | A simulated SOC shift: 127 alerts, 126 false positives, 1 real threat, 6 coffees. SIEM/SOAR/EDR triage with MITRE ATT&amp;CK mapping. [Live demo](https://yatuk.github.io/soc-simulation/). | `Python` |
-| 📡 **[MCPRadar](https://github.com/yatuk/mcpradar)** ⭐1 | Scans MCP servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. SARIF output, [public leaderboard](https://yatuk.github.io/mcpradar). | `Python` |
+| 📡 **[MCPRadar](https://github.com/yatuk/mcpradar)** ⭐2 | Scans MCP servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. SARIF output, [public leaderboard](https://yatuk.github.io/mcpradar). | `Python` |
 
 <!-- ============================ STATS ============================ -->
 ## `~/github-stats`
