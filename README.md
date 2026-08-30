@@ -54,12 +54,12 @@ Off the clock I build security tooling for AI systems: a proxy that sits in fron
 
 | Project | What it does | Stack |
 |---|---|---|
-| 🛡️ **[Tamga](https://github.com/yatuk/tamga)** ![stars](https://img.shields.io/github/stars/yatuk/tamga?style=flat-square&amp;label=&amp;color=00F5A0) | Self-hosted proxy that redacts PII, blocks leaked secrets, and catches prompt injection before it hits your LLM provider. Sub-millisecond scanning, KVKK/BDDK/GDPR/PCI-DSS mappings. | `Go` `Python` `Next.js` |
-| ⚙️ **[SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows)** ![stars](https://img.shields.io/github/stars/yatuk/soc-n8n-workflows?style=flat-square&amp;label=&amp;color=00F5A0) | Ten import-ready n8n playbooks for alert triage, phishing analysis, IOC enrichment, and CVE watch. No secrets baked in. | `n8n` `JSON` |
-| 🎓 **[İTÜ MCP](https://github.com/yatuk/itu-mcp)** ![stars](https://img.shields.io/github/stars/yatuk/itu-mcp?style=flat-square&amp;label=&amp;color=00F5A0) | MCP server that connects İTÜ's Ninova and OBS to Claude, Cursor, and other AI clients. Course files, grades, deadlines, transcript, all queryable in plain language. | `Python` `FastMCP` |
-| 🗂️ **[İTÜ Archive](https://github.com/yatuk/itu-archive)** ![stars](https://img.shields.io/github/stars/yatuk/itu-archive?style=flat-square&amp;label=&amp;color=00F5A0) | OBS only keeps the current term online, so this pulls the course schedule and academic calendar daily and keeps it. 27 terms, 64k+ section records since 2016. | `Go` `JSON/CSV` |
-| 🎯 **[SOC Simulation](https://github.com/yatuk/soc-simulation)** ![stars](https://img.shields.io/github/stars/yatuk/soc-simulation?style=flat-square&amp;label=&amp;color=00F5A0) | A simulated SOC shift: 127 alerts, 126 false positives, 1 real threat, 6 coffees. SIEM/SOAR/EDR triage with MITRE ATT&amp;CK mapping. [Live demo](https://yatuk.github.io/soc-simulation/). | `Python` |
-| 📡 **[MCPRadar](https://github.com/yatuk/mcpradar)** ![stars](https://img.shields.io/github/stars/yatuk/mcpradar?style=flat-square&amp;label=&amp;color=00F5A0) | Scans MCP servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. SARIF output, [public leaderboard](https://yatuk.github.io/mcpradar). | `Python` |
+| ![stars](https://img.shields.io/github/stars/yatuk/tamga?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 🛡️ **[Tamga](https://github.com/yatuk/tamga)** | Self-hosted proxy that redacts PII, blocks leaked secrets, and catches prompt injection before it hits your LLM provider. Sub-millisecond scanning, KVKK/BDDK/GDPR/PCI-DSS mappings. | `Go` `Python` `Next.js` |
+| ![stars](https://img.shields.io/github/stars/yatuk/soc-n8n-workflows?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) ⚙️ **[SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows)** | Ten import-ready n8n playbooks for alert triage, phishing analysis, IOC enrichment, and CVE watch. No secrets baked in. | `n8n` `JSON` |
+| ![stars](https://img.shields.io/github/stars/yatuk/itu-mcp?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 🎓 **[İTÜ MCP](https://github.com/yatuk/itu-mcp)** | MCP server that connects İTÜ's Ninova and OBS to Claude, Cursor, and other AI clients. Course files, grades, deadlines, transcript, all queryable in plain language. | `Python` `FastMCP` |
+| ![stars](https://img.shields.io/github/stars/yatuk/itu-archive?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 🗂️ **[İTÜ Archive](https://github.com/yatuk/itu-archive)** | OBS only keeps the current term online, so this pulls the course schedule and academic calendar daily and keeps it. 27 terms, 64k+ section records since 2016. | `Go` `JSON/CSV` |
+| ![stars](https://img.shields.io/github/stars/yatuk/soc-simulation?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 🎯 **[SOC Simulation](https://github.com/yatuk/soc-simulation)** | A simulated SOC shift: 127 alerts, 126 false positives, 1 real threat, 6 coffees. SIEM/SOAR/EDR triage with MITRE ATT&amp;CK mapping. [Live demo](https://yatuk.github.io/soc-simulation/). | `Python` |
+| ![stars](https://img.shields.io/github/stars/yatuk/mcpradar?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 📡 **[MCPRadar](https://github.com/yatuk/mcpradar)** | Scans MCP servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. SARIF output, [public leaderboard](https://yatuk.github.io/mcpradar). | `Python` |
 
 <!-- ============================ STATS ============================ -->
 ## `~/github-stats`
@@ -75,14 +75,5 @@ Off the clock I build security tooling for AI systems: a proxy that sits in fron
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yatuk/yatuk/output/snake-dark.svg"/>
   <img width="95%" src="https://raw.githubusercontent.com/yatuk/yatuk/output/snake.svg" alt="contribution snake"/>
 </picture>
-
-</div>
-
-<!-- ============================ FOOTER ============================ -->
-<div align="center">
-
-<br/>
-
-<sub>⚡ <i>"Security is a process, not a product."</i> · Bruce Schneier</sub>
 
 </div>
