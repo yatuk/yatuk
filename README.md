@@ -7,12 +7,7 @@
 
 <h1>Fatih Serdar Çakmak</h1>
 <h3>SOC Analyst Intern · Blue Team · Detection &amp; Incident Response</h3>
-
-<a href="https://github.com/yatuk">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1000&amp;color=00F5A0&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=Triaging+alerts%2C+chasing+true+positives;Building+open-source+AI+security+tooling;SIEM+%2F+SOAR+%2F+EDR+%2F+MITRE+ATT%26CK;Computer+Engineering+%40+ITU+%C2%B7+Class+of+2027" alt="typing"/>
-</a>
-
-<br/>
+<p>Triaging alerts, chasing true positives · Building open-source AI security tooling · Computer Engineering @ ITU, Class of 2027</p>
 
 <a href="https://linkedin.com/in/fatihserdar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="linkedin"/></a>
 <a href="https://fscakmak.com"><img src="https://img.shields.io/badge/Portfolio-fscakmak.com-00F5A0?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="portfolio"/></a>
