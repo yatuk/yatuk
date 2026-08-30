@@ -25,8 +25,6 @@ focus:        [ SOC Operations, Alert Triage, Incident Response, Detection ]
 currently:    SOC Intern @ Fibabanka (BDDK-regulated banking SOC)
 building:     [ Tamga - LLM security proxy, SOC n8n playbooks, MCPRadar - MCP scanner ]
 education:    B.Sc. Computer Engineering @ ITU (expected 2027)
-learning:     Detection-as-Code · AI/LLM Security · Threat Hunting
-philosophy:   "Most alerts are noise. The interesting part is the few that aren't."
 ```
 
 I'm a Computer Engineering student who spends most of his time inside a SOC. Day to day that means triaging alerts, killing false positives, and tweaking SOAR playbooks so the signal surfaces faster. Mostly I'm learning what incidents actually look like before they reach an analyst, and how much of a working SOC quietly runs on automation.
