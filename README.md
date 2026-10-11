@@ -37,8 +37,8 @@ Off the clock I build security tooling for AI systems: a proxy that sits in fron
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,go,c,cpp,postgres,docker,fastapi,nextjs,linux,git&theme=dark"/>
-      <img src="https://skillicons.dev/icons?i=py,go,c,cpp,postgres,docker,fastapi,nextjs,linux,git&theme=light" alt="Python, Go, C, C++, PostgreSQL, Docker, FastAPI, Next.js, Linux, Git"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cgo%2Cc%2Ccpp%2Cpostgres%2Cdocker%2Cfastapi%2Cnextjs%2Clinux%2Cgit&theme=dark"/>
+      <img src="https://skillicons.dev/icons?i=py%2Cgo%2Cc%2Ccpp%2Cpostgres%2Cdocker%2Cfastapi%2Cnextjs%2Clinux%2Cgit&theme=light" alt="Python, Go, C, C++, PostgreSQL, Docker, FastAPI, Next.js, Linux, Git"/>
     </picture>
   </a>
 </p>
