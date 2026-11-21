@@ -1,76 +1,76 @@
-<!-- ╔══════════════════════════════════════════════════════════════════╗ -->
-<!-- ║              FATIH SERDAR ÇAKMAK · PROFILE README                  ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════╝ -->
-
-<!-- ============================ HEADER ============================ -->
 <div align="center">
 
-<h1>Fatih Serdar Çakmak</h1>
-<h3>SOC Analyst Intern · Blue Team · Detection &amp; Incident Response</h3>
-<p>Triaging alerts, chasing true positives · Building open-source AI security tooling · Computer Engineering @ ITU, Class of 2027</p>
+<img src="assets/banner.png" width="100%" alt="banner"/>
 
+<h1>Fatih Serdar Çakmak</h1>
+<p>I build open-source tools for AI security, AI agents and İTÜ students.</p>
+
+<a href="https://fscakmak.com"><img src="https://img.shields.io/badge/Portfolio-fscakmak.com-39D0C8?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="portfolio"/></a>
 <a href="https://linkedin.com/in/fatihserdar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="linkedin"/></a>
-<a href="https://fscakmak.com"><img src="https://img.shields.io/badge/Portfolio-fscakmak.com-00F5A0?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="portfolio"/></a>
-<img src="https://img.shields.io/badge/Based%20in-T%C3%BCrkiye-E30A17?style=flat-square&amp;logo=googlemaps&amp;logoColor=white" alt="location"/>
 
 </div>
 
-<!-- ============================ ABOUT ============================ -->
-## `~/whoami`
+## `~/featured`
 
-```yaml
-name:         Fatih Serdar Çakmak
-role:         SOC Analyst Intern  ·  Computer Engineering Student
-focus:        [ SOC Operations, Alert Triage, Incident Response, Detection ]
-currently:    SOC Intern @ Fibabanka (BDDK-regulated banking SOC)
-building:     [ Tamga - LLM security proxy, SOC n8n playbooks, MCPRadar - MCP scanner ]
-education:    B.Sc. Computer Engineering @ ITU (expected 2027)
-```
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I'm a Computer Engineering student who spends most of his time inside a SOC. Day to day that means triaging alerts, killing false positives, and tweaking SOAR playbooks so the signal surfaces faster. Mostly I'm learning what incidents actually look like before they reach an analyst, and how much of a working SOC quietly runs on automation.
+### 🛡️ [Tamga](https://github.com/yatuk/tamga)
+![stars](https://img.shields.io/github/stars/yatuk/tamga?style=flat-square&amp;label=%E2%98%85&amp;color=39D0C8&amp;labelColor=0D1117) `Go` `Python` `Next.js`
 
-Off the clock I build security tooling for AI systems: a proxy that sits in front of LLM traffic, a scanner for MCP servers, and n8n playbooks that handle the repetitive half of SOC work. Everything is open source and linked below.
+A self-hosted proxy that sits in front of your LLM provider. It redacts PII, blocks leaked secrets and catches prompt injection, with scanning under a millisecond. Includes KVKK, BDDK, GDPR and PCI-DSS mappings.
+[tamgaproxy.com](https://tamgaproxy.com)
 
-<!-- ============================ STACK ============================ -->
-## `~/tech-stack`
+</td>
+<td width="50%" valign="top">
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cgo%2Cc%2Ccpp%2Cpostgres%2Cdocker%2Cfastapi%2Cnextjs%2Clinux%2Cgit&theme=dark"/>
-      <img src="https://skillicons.dev/icons?i=py%2Cgo%2Cc%2Ccpp%2Cpostgres%2Cdocker%2Cfastapi%2Cnextjs%2Clinux%2Cgit&theme=light" alt="Python, Go, C, C++, PostgreSQL, Docker, FastAPI, Next.js, Linux, Git"/>
-    </picture>
-  </a>
-</p>
+### 🎼 [Multi-Model Orchestra](https://github.com/yatuk/multi-model-orchestra)
+![stars](https://img.shields.io/github/stars/yatuk/multi-model-orchestra?style=flat-square&amp;label=%E2%98%85&amp;color=39D0C8&amp;labelColor=0D1117) `Python`
 
-<p align="center"><b>Security ops</b> · SIEM · SOAR · EDR / NDR · MITRE ATT&amp;CK · Wireshark · Active Directory · n8n<br/>
-<b>Compliance</b> · BDDK · ISO/IEC 27001</p>
+Routes coding work across Claude, GPT (Codex), Kimi and DeepSeek. Every model runs through one runner with hard status gates. Writes happen only in worktrees. It also has a blind council and a benchmark.
 
-<!-- ============================ PROJECTS ============================ -->
-## `~/projects`
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎓 [İTÜ MCP](https://github.com/yatuk/itu-mcp)
+![stars](https://img.shields.io/github/stars/yatuk/itu-mcp?style=flat-square&amp;label=%E2%98%85&amp;color=39D0C8&amp;labelColor=0D1117) `Python` `FastMCP`
+
+Connects İTÜ's Ninova and OBS to Claude, Cursor and Codex. You can ask about course files, assignments, grades and your transcript in plain language.
+[pypi](https://pypi.org/project/itu-mcp/)
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 [MCPRadar](https://github.com/yatuk/mcpradar)
+![stars](https://img.shields.io/github/stars/yatuk/mcpradar?style=flat-square&amp;label=%E2%98%85&amp;color=39D0C8&amp;labelColor=0D1117) `Python`
+
+Scans MCP servers before your agent runs them. It catches tool poisoning, prompt injection and supply-chain rug pulls, and outputs SARIF. See the [public leaderboard](https://yatuk.github.io/mcpradar).
+
+</td>
+</tr>
+</table>
+
+## `~/more`
 
 | Project | What it does | Stack |
 |---|---|---|
-| ![stars](https://img.shields.io/github/stars/yatuk/tamga?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 🛡️ **[Tamga](https://github.com/yatuk/tamga)** | Self-hosted proxy that redacts PII, blocks leaked secrets, and catches prompt injection before it hits your LLM provider. Sub-millisecond scanning, KVKK/BDDK/GDPR/PCI-DSS mappings. | `Go` `Python` `Next.js` |
-| ![stars](https://img.shields.io/github/stars/yatuk/itu-mcp?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 🎓 **[İTÜ MCP](https://github.com/yatuk/itu-mcp)** | MCP server that connects İTÜ's Ninova and OBS to Claude, Cursor, and other AI clients. Course files, grades, deadlines, transcript, all queryable in plain language. | `Python` `FastMCP` |
-| ![stars](https://img.shields.io/github/stars/yatuk/soc-n8n-workflows?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) ⚙️ **[SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows)** | Ten import-ready n8n playbooks for alert triage, phishing analysis, IOC enrichment, and CVE watch. No secrets baked in. | `n8n` `JSON` |
-| ![stars](https://img.shields.io/github/stars/yatuk/mcpradar?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 📡 **[MCPRadar](https://github.com/yatuk/mcpradar)** | Scans MCP servers for tool poisoning, prompt injection, and supply-chain rug pulls before your agent runs them. SARIF output, [public leaderboard](https://yatuk.github.io/mcpradar). | `Python` |
-| ![stars](https://img.shields.io/github/stars/yatuk/soc-simulation?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 🎯 **[SOC Simulation](https://github.com/yatuk/soc-simulation)** | A simulated SOC shift: 127 alerts, 126 false positives, 1 real threat, 6 coffees. SIEM/SOAR/EDR triage with MITRE ATT&amp;CK mapping. [Live demo](https://yatuk.github.io/soc-simulation/). | `Python` |
-| ![stars](https://img.shields.io/github/stars/yatuk/itu-archive?style=flat-square&amp;label=%E2%98%85&amp;color=00F5A0&amp;labelColor=0D1117) 🗂️ **[İTÜ Archive](https://github.com/yatuk/itu-archive)** | OBS only keeps the current term online, so this pulls the course schedule and academic calendar daily and keeps it. 27 terms, 64k+ section records since 2016. | `Go` `JSON/CSV` |
+| ⚙️ **[SOC n8n Workflows](https://github.com/yatuk/soc-n8n-workflows)** | Ten import-ready n8n playbooks for alert triage, phishing analysis, IOC enrichment and CVE watch. | `n8n` |
+| 🎯 **[SOC Simulation](https://github.com/yatuk/soc-simulation)** | A simulated SOC shift with 127 alerts, 126 false positives and 1 real threat. Includes MITRE ATT&amp;CK mapping. [Live demo](https://yatuk.github.io/soc-simulation/) | `Python` |
+| 🗂️ **[İTÜ Archive](https://github.com/yatuk/itu-archive)** | OBS only shows the current term, so this keeps every course schedule since 2016: 27 terms and over 64k sections. [itu-ders.com](https://itu-ders.com) | `Go` |
+| 🔋 **[BatteryHub + Claude](https://github.com/yatuk/Wireless-Device-Battery-Monitor)** | Shows wireless device batteries and your weekly Claude usage limit on the Windows taskbar. | `C++` `Electron` |
+| 🟢 **[Kick Bulk Mod](https://github.com/yatuk/kick-bulk-mod)** | Bans, times out or unbans many Kick chat users at once from a simple web UI. | `TypeScript` |
+| 🧪 **[php2shell session gap lab](https://github.com/yatuk/php2shell-session-gap-lab)** | A loopback-only lab for PHP session serialize-handler mismatches. Includes a harmless proof and a negative control. | `Python` `PHP` |
 
-<!-- ============================ STATS ============================ -->
-## `~/github-stats`
+## `~/stack`
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,go,ts,cpp,postgres,docker,fastapi,nextjs,linux,git&amp;theme=dark" alt="Python, Go, TypeScript, C++, PostgreSQL, Docker, FastAPI, Next.js, Linux, Git"/>
+</p>
 
 <div align="center">
-
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yatuk&amp;theme=github_dark" alt="stats"/>
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatuk&amp;theme=github_dark" alt="top langs"/>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yatuk/yatuk/output/snake-dark.svg"/>
-  <img width="95%" src="https://raw.githubusercontent.com/yatuk/yatuk/output/snake.svg" alt="contribution snake"/>
-</picture>
-
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yatuk&amp;theme=github_dark" alt="stats"/>
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatuk&amp;theme=github_dark" alt="top languages"/>
 </div>
