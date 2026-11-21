@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner-v2.png" width="100%" alt="banner"/>
+<img src="assets/comic.png" width="100%" alt="Comic: a 3 AM suspicious login alert turns out to be me"/>
 
 <h1>Fatih Serdar Çakmak</h1>
 <p>I build open-source tools for AI security, AI agents and İTÜ students.</p>
